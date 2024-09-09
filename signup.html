@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog CEO API - Sign Up</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .valid {
+            border-color: #4CAF50;
+        }
+
+        .invalid {
+            border-color: #FF0000;
+        }
+
+        .error-message {
+            color: #FF0000;
+            font-size: 0.875em;
+        }
+
+        .success-message {
+            color: #4CAF50;
+            font-size: 0.875em;
+        }
+    </style>
+</head>
+
+<body class="bg-[#f9f9f9] text-[#333] font-sans leading-relaxed">
+    <nav class="h-[10vh] w-full flex justify-between bg-green-300 items-center px-2">
+        <a href="./index.html"><h2 class="text-3xl font-bold">Dog CEO API</h2></a>
+        <div class="flex items-center space-x-6">
+            <a href="./signup.html" class="text-xl"><p>Sign Up</p></a>
+            <a href="./about.html" class="text-xl"><p>About Us</p></a>
+            <a href="./dog_breeds.html" class="text-xl"><p>Dog Breeds</p></a>
+        </div>
+    </nav>
+
+    <main class="flex justify-center items-center min-h-[90vh]">
+        <div class="container mx-auto flex justify-center items-center px-4 w-full md:w-11/12 lg:w-9/12 h-full">
+            <div class="bg-[#f4f4f4] p-5 md:p-4 lg:p-3 rounded-lg shadow-md max-w-md w-full">
+                <h2 class="text-2xl font-bold mb-6 md:text-xl lg:text-lg md:mb-4 lg:mb-2">Sign Up</h2>
+                <form id="signupForm">
+                    <div class="mb-4">
+                        <label for="username" class="block text-[#333] font-semibold mb-2">Username</label>
+                        <input type="text" id="username" name="username"
+                            class="w-full px-3 py-2 border border-[#ccc] rounded-md focus:outline-none focus:ring-2 focus:ring-[#77c6ff]"
+                            required>
+                        <p id="usernameError" class="error-message hidden">Please enter a valid username (only alphabetic characters and spaces, at least 3 characters).</p>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="email" class="block text-[#333] font-semibold mb-2">Email</label>
+                        <input type="email" id="email" name="email"
+                            class="w-full px-3 py-2 border border-[#ccc] rounded-md focus:outline-none focus:ring-2 focus:ring-[#77c6ff]"
+                            required>
+                        <p id="emailError" class="error-message hidden">Please enter a valid email address.</p>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="password" class="block text-[#333] font-semibold mb-2">Password</label>
+                        <input type="password" id="password" name="password"
+                            class="w-full px-3 py-2 border border-[#ccc] rounded-md focus:outline-none focus:ring-2 focus:ring-[#77c6ff]"
+                            required>
+                        <p id="passwordError" class="error-message hidden">Password must be at least 8 characters long and include both letters and numbers.</p>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="confirm-password" class="block text-[#333] font-semibold mb-2">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password"
+                            class="w-full px-3 py-2 border border-[#ccc] rounded-md focus:outline-none focus:ring-2 focus:ring-[#77c6ff]"
+                            required>
+                        <p id="confirmPasswordError" class="error-message hidden">Passwords do not match.</p>
+                    </div>
+
+                    <div class="mb-6">
+                        <label for="dob" class="block text-[#333] font-semibold mb-2">Date of Birth</label>
+                        <input type="date" id="dob" name="dob"
+                            class="w-full px-3 py-2 border border-[#ccc] rounded-md focus:outline-none focus:ring-2 focus:ring-[#77c6ff]"
+                            required>
+                        <p id="dobError" class="error-message hidden">You must be at least 18 years old.</p>
+                    </div>
+
+                    <button type="submit" id="submitBtn"
+                        class="w-full bg-[#333] text-white py-2 rounded-md hover:bg-[#555] uppercase font-semibold text-lg md:text-base lg:text-sm">Sign
+                        Up</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="./formValidation.js"></script>
+</body>
+
+</html>

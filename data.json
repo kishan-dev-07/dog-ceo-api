@@ -1,0 +1,56 @@
+[
+    {
+        "breedId": "B101",
+        "breedName": "Golden Retriever",
+        "description": "Friendly, intelligent, and devoted. Great Family Dog.",
+        "size": "Large",
+        "lifeSpan": "10-12 Years",
+        "origin": "Scotland",
+        "imageUrl": "https://images.dog.ceo/breeds/segugio-italian/n02090722_001.jpg"
+    },
+    {
+        "breedId": "B102",
+        "breedName": "Labrador",
+        "description": "Intelligent, loyal, and full-bodied.",
+        "size": "Large",
+        "lifeSpan": "10-12 Years",
+        "origin": "United States",
+        "imageUrl": "https://images.dog.ceo/breeds/labrador/Luke.jpg"
+    },
+    {
+        "breedId": "B103",
+        "breedName": "Poodle",
+        "description": "Small, friendly, and quiet. Great for families and friends.",
+        "size": "Small",
+        "lifeSpan": "10-12 Years",
+        "origin": "United States",
+        "imageUrl": "https://images.dog.ceo/breeds/poodle-toy/n02113624_681.jpg"
+    },
+    {
+        "breedId": "B104",
+        "breedName": "German Shepherd",
+        "description": "Intelligent, loyal, and friendly. Great for hunting and playing fetch.",
+        "size": "Large",
+        "lifeSpan": "10-12 Years",
+        "origin": "Germany",
+        "imageUrl": "https://images.dog.ceo/breeds/retriever-golden/n02099601_2422.jpg"
+    },
+    {
+        "breedId": "B105",
+        "breedName": "Beagle",
+        "description": "Intelligent, loyal, and friendly. Great for hunting and playing fetch.",
+        "size": "Large",
+        "lifeSpan": "10-12 Years",
+        "origin": "United Kingdom",
+        "imageUrl": "https://images.dog.ceo/breeds/beagle/n02088364_13214.jpg"
+    },
+    {
+        "breedId": "B106",
+        "breedName": "Bulldog",
+        "description": "Intelligent, loyal, and friendly. Great for hunting and playing fetch.",
+        "size": "Large",
+        "lifeSpan": "10-12 Years",
+        "origin": "United States",
+        "imageUrl": "https://images.dog.ceo/breeds/mastiff-bull/n02108422_1836.jpg"
+    }
+]

@@ -1,0 +1,56 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.main-container{
+    padding: 20px;
+    max-width:fit-content ;
+    border-radius:5px ;
+    margin: 50px auto;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 4px 5px 5px rgba(128, 128, 128, 0.356);
+
+}
+
+.container{
+    background-color: rgb(205, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.fetch-button{
+    background-color: white;
+    color: #000229;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.fetch-button:hover{
+
+    background-color: #000229;
+    color: white;
+
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img{
+    border-radius: 8px;
+    height: 400px;
+    width: 650px;
+    object-fit: cover;
+}
+
